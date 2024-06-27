@@ -3,27 +3,27 @@
   "assertionSchema": "dataform_assertions",
   "defaultLocation": "us-central1",
   "warehouse": "bigquery",
-  "defaultDatabase": "analytics-engg-framework-demo",
+  "defaultDatabase": "dp-111-dwh-lnd",
   "vars": {
-    "connection_name": "projects/analytics-engg-framework-demo/locations/us-central1/connections/sample-connection",
+    "connection_name": "projects/dp-111-dwh-lnd/locations/us-central1/connections/sample-connection",
     "dataset_id_landing": "aef_landing_sample_dataset",
-    "dataset_projectid_landing": "analytics-engg-framework-demo",
+    "dataset_projectid_landing": "p-111-dwh-lnd",
     "dataset_location_landing": "us-central1",
     "dataset_description_landing": "Landing dataset description",
     "dataset_lake_landing": "aef-sales-lake",
     "dataset_zone_landing": "aef-landing-sample-zone",
     "dataset_id_curated": "aef_curated_sample_dataset",
-    "dataset_projectid_curated": "analytics-engg-framework-demo",
+    "dataset_projectid_curated": "dp-111-dwh-cur",
     "dataset_location_curated": "us-central1",
     "dataset_description_curated": "curated dataset description",
     "dataset_lake_curated": "aef-sales-lake",
     "dataset_zone_curated": "aef-curated-sample-zone",
     "dataset_id_exposure": "aef_exposure_sample_dataset",
-    "dataset_projectid_exposure": "analytics-engg-framework-demo",
+    "dataset_projectid_exposure": "dp-111-exp",
     "dataset_location_exposure": "us-central1",
     "dataset_description_exposure": "Exposure dataset description",
     "dataset_lake_exposure": "aef-sales-lake",
     "dataset_zone_exposure": "aef-exposure-sample-zone",
-    "sample_data_bucket": "analytics-engg-framework-demo-my-sample-data-bucket"
+    "sample_data_bucket": "dp-111-dwh-lnd-sample-data-bucket"
   }
 }
